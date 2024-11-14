@@ -16,11 +16,7 @@ $this->user = "root";
 $this->pwd = "rootroot"; 
 $this->basedatos = "registro_ecu";
 
-/*
-       $this->host = "198.71.241.2:3306";
-        $this->user = "anecpcp";
-        $this->pwd = "rootroot";
-        $this->basedatos = "registro_ecu_test";*/
+ 
 	
 		
 	}
