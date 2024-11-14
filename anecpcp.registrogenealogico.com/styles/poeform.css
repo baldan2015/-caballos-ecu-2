@@ -1,0 +1,124 @@
+/*agregrado por arodriguez*/
+.ui-autocomplete {
+max-height: 100px;
+width: 80px;
+overflow-y: auto;
+/* prevent horizontal scrollbar */
+overflow-x: hidden;
+/* add padding to account for vertical scrollbar */
+padding-right: 20px;
+
+  }
+/*---------------------------------------------------------------*/
+
+
+body {
+	font-size:10px!important;
+}
+tituloForm{
+	font-size:15px;
+	color:black;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+table tbody  tr td{
+font-size:11px!important;
+
+}
+ .cursor{
+
+  cursor: pointer;
+  cursor: hand;
+ }
+/*
+ .thItem{
+    font-weight:normal!important;
+      font-size:11px;
+ }
+
+.div-tabla{
+display: table;
+}
+.div-fila{
+display: table-row;
+}
+.div-columna{
+display: table-cell;
+text-align: left;
+vertical-align: middle;
+}
+
+.div-columna a{
+ font-size: 12px;
+}
+.div-columna  a:hover {
+ 
+   
+  background: rgba(255,255,255,0.3);
+  border-radius: 5px;
+  transition: all 2s ease;
+}
+
+table {
+  
+  border-collapse: collapse;
+  border: 1px solid #000;
+  border-bottom: 2px solid #000 ;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 20px 20px rgba(0,0,0,0.05),
+     0px 30px 20px rgba(0,0,0,0.05);
+  tr {
+     &:hover {
+      background: #f4f4f4;
+      
+      td {
+        color: #555;
+      }
+    }
+  }
+  th, td {
+    color: #999;
+    border: 1px solid #000!important;
+    padding: 12px 35px;
+    border-collapse: collapse;
+  }
+  th {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    &.last {
+      border-right: none;
+    }
+  }
+}
+ */
+ .cssBarraSubMenu{
+ position: fixed; 
+ float:left !important; 
+ width:100%; 
+ background: #000;
+ /*background-image:url("../img/banner/GrassBar.jpg");  */
+ top:48px;
+ left:0px!important;
+ 
+ color: #fff;
+ height: 25px;
+ text-align:left;
+}
+
+.cssBarraSubMenu span {
+ color: #fff;
+}
+ 
+ .tituloListaProp{
+color: darkred;
+font-size: 14px;
+font-weight: bold;
+ }
+ .subTituloListaProp{
+color: black;
+font-size: 12px;
+ }

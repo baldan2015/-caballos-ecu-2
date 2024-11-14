@@ -1,0 +1,152 @@
+body{
+    color:black;
+    font-family:Trebuchet MS;
+    background: #f5f3e5     ; 
+     
+
+     
+    text-transform: uppercase !important;
+    
+}
+section{
+    /*background: #fff;*/
+    width: 100%;
+    margin-left:0;
+    height: 100%;
+    align-content: center;
+    overflow-x: hidden;
+}
+titulo{
+    margin-left: 15px;
+    font-size: 21px;
+    font-weight: bold;
+    
+}
+
+.toolButton{
+   /* float:right;*/
+    background: transparent;
+   
+}
+
+.tdSeparate{
+    width:10px;
+}
+input, select{
+      text-transform: uppercase !important;
+}
+.btnQuit{
+    cursor: pointer;
+    cursor: hand;
+}
+.cursorHand{
+    cursor: pointer;
+    cursor: hand;
+}
+.bgImagen{
+    background: url("http://localhost/sge2/images/logo/2.jpg")100% 100% no-repeat;
+}
+.opacity{
+   background-color:#459e00 ;
+   opacity:0.5; /* Opacidad 60% */
+    -webkit-transition: opacity 0.3s;
+   transition: opacity 0.3s;
+}
+.opacity: hover{
+      opacity:1; /* Opacidad 60% */
+}
+ 
+.mainMessage{
+    position: absolute;
+   color: #FFF;
+    margin-top: 490px;
+   
+     width:80%;
+   height:100px;
+   float:left;
+}
+
+.title_big {
+    font-size: 45px;
+    line-height: 56px;
+    letter-spacing: -1;
+    margin-bottom: 20px;
+    }
+    .sub_title_big {
+    position: relative;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 0 30px;
+    text-shadow: 1px 1px rgba(255,255,255,0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #FFF;
+}
+
+
+
+
+/*adaptacion css */
+
+.breadcrumb{
+  background: none!important;
+}
+.modal-content{
+ background:#f5f3e5 !important;
+}
+
+.modal-header{
+     background: #67b021 url(images/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x;
+     color:#fff;
+
+}
+
+/*end boton check tipo material 20211001*/
+
+
+.material-switch > input[type="checkbox"] {
+    display: none;
+}
+
+.material-switch > label {
+    cursor: pointer;
+    height: 0px;
+    position: relative; 
+    width: 40px;  
+}
+
+.material-switch > label::before {
+    background: rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    content: '';
+    height: 16px;
+    margin-top: -8px;
+    position:absolute;
+    opacity: 0.3;
+    transition: all 0.4s ease-in-out;
+    width: 40px;
+}
+.material-switch > label::after {
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    content: '';
+    height: 24px;
+    left: -4px;
+    margin-top: -8px;
+    position: absolute;
+    top: -4px;
+    transition: all 0.3s ease-in-out;
+    width: 24px;
+}
+.material-switch > input[type="checkbox"]:checked + label::before {
+    background: inherit;
+    opacity: 0.5;
+}
+.material-switch > input[type="checkbox"]:checked + label::after {
+    background: rgb(92, 184, 92);
+    left: 20px;
+}
+
+/*end boton check tipo material*/

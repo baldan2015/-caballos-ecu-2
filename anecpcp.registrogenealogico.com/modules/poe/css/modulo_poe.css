@@ -1,0 +1,33 @@
+.imgHorse{
+ background-image: url("../../../img/horseTitulo.png");	
+ 	width:120px;
+    display:block; 
+    height:50px;
+    text-decoration:none;
+     opacity: 0.8;
+    /*padding-left:20px;*/ 
+
+
+
+}    
+
+
+.etiqueta{
+   color: red;
+}
+
+/* INICIO CSS AGREGADO PARA GRILLA*/
+table tbody tr:hover {
+   background-color: #dff0d8!important;
+   color:#3c763d;
+   cursor: pointer;
+}
+table tr:hover td.sorting_1 {
+   background-color: #dff0d8!important;
+   color:#3c763d;
+   cursor: pointer;
+}
+table.dataTable.dataTable_width_auto {
+   width: auto;
+ }   
+/* FIN CSS AGREGADO PARA GRILLA*/

@@ -1,0 +1,1 @@
+<?php    class Departamento{        public $codigo;        public $descripcion;    }?>

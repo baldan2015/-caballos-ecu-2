@@ -1,0 +1,32 @@
+@media screen {
+  #printSection {
+      display: none;
+  }
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+  }
+  body * {
+    visibility:hidden;
+    -webkit-print-color-adjust: exact !important;
+  }
+  #printSection, #printSection * {
+    visibility:visible;
+    -webkit-print-color-adjust: exact !important;
+  }
+  #printSection {
+    -webkit-print-color-adjust: exact !important;
+    position:absolute;
+    left:0;
+    top:0;
+  }
+
+}
+
+
+ td {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: [economy | exact];
+  }

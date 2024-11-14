@@ -1,0 +1,1 @@
+<?php    class Pelaje{        public $codigo;        public $nombre;    }?>

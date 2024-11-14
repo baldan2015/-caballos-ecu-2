@@ -1,0 +1,4 @@
+[15-May-2022 05:37:06 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home/h7b2lwjt47m6/public_html/app/srg/libs/PHPExcel-1.8/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[15-May-2022 05:40:43 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home/h7b2lwjt47m6/public_html/app/srg/libs/PHPExcel-1.8/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[04-Jul-2022 20:45:00 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 85 bytes) in /home/h7b2lwjt47m6/public_html/app/srg/libs/PHPExcel-1.8/Classes/PHPExcel/CachedObjectStorage/CacheBase.php on line 177
+[05-Jul-2022 17:12:58 Europe/London] PHP Warning:  mysqli_fetch_object() expects parameter 1 to be mysqli_result, boolean given in /home/h7b2lwjt47m6/public_html/app/srg/data/EjemplarDataXls.php on line 16

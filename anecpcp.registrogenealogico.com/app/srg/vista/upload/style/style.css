@@ -1,0 +1,64 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#666666;
+}
+#upload-wrapper {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	background: #F5F5F5;
+	padding: 50px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 3px #AAA;
+}
+#upload-wrapper h3 {
+	padding: 0px 0px 10px 0px;
+	margin: 0px 0px 20px 0px;
+	margin-top: -30px;
+	border-bottom: 1px dotted #DDD;
+}
+#upload-wrapper input[type=file] {
+	border: 1px solid #DDD;
+	padding: 6px;
+	background: #FFF;
+	border-radius: 5px;
+}
+#upload-wrapper #submit-btn {
+	border: none;
+	padding: 10px;
+	background: #61BAE4;
+	border-radius: 5px;
+	color: #FFF;
+}
+#output{
+	padding: 5px;
+	font-size: 12px;
+}
+#output img {
+	border: 1px solid #DDD;
+	padding: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #CCC;
+    font-size: 12px;
+}
+ 
+table th {
+    font-weight: bold;
+    background-color: #E1E1E1;
+    padding:5px;
+}
+ 
+table  tbody tr:hover td {
+    background-color: #F3F3F3;
+}
+ 
+table td {
+    padding: 5px 10px;
+}

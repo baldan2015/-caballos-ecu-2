@@ -1,0 +1,370 @@
+﻿
+input[type=radio] {
+    font-family: "Montserrat", sans-serif;
+     height: 1px;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    background-color: #efefef;
+    padding: 0em 1em;
+    font-size: 1.2em;
+    box-shadow: 0em 0.1em 0.5em #ccc;
+    }
+    */
+input[type=text] {
+    font-family: "Montserrat", sans-serif;
+    width: 300px;
+    height: 30px;
+    border: 0.1em solid #ccc;
+    border-radius: 0.5em;
+    background-color: #efefef;
+    padding: 0em 1em;
+    font-size: 1.2em;
+    box-shadow: 0em 0.1em 0.5em #ccc;
+
+  /*
+    font-family: "Open Sans", sans-serif;
+    width: 20em;
+    height: 2em;
+    border: 0.1em solid #ccc;
+    border-radius: 0.2em;
+    background-color: #f9f9f9;
+    padding: 0em 1em;
+    font-size: 1em;
+    border: 5px solid white;
+    -webkit-box-shadow:
+     inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    -moz-box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    box-shadow:
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1);
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    */
+}
+
+ 
+
+#radioMoneda div {
+  clear: both;
+  width: 250px;
+}
+
+#radioMoneda label {
+  width: 250px;
+  border-radius: 3px;
+  border: 1px solid #D1D3D4
+}
+
+/* hide input */
+input.radio:empty {
+  margin-left: -999px;
+}
+
+/* style label */
+input.radio:empty ~ label {
+  position: relative;
+  float: left;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.radio:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: #ccc;
+  border-radius: 3px 0 0 3px;
+}
+
+/* toggle hover */
+input.radio:hover:not(:checked) ~ label:before {
+  content:'\2714';
+  text-indent: .9em;
+  color: 1C8551;
+}
+
+input.radio:hover:not(:checked) ~ label {
+  color: #1C8551 ;
+  /*background: #D1D3D4;*/
+}
+
+/* toggle on */
+input.radio:checked ~ label:before {
+  content:'\2714';
+  text-indent: .9em;
+  color: #9CE2AE;
+  background-color: #000;
+}
+
+input.radio:checked ~ label {
+  color: #777;
+}
+
+/* radio focus */
+
+
+
+table tr td{
+
+height: 20px;
+font-size: 11px;
+
+
+}
+.cssBarraFiltro{
+background-image:url('../img/barramarron.png');
+height: 12px;
+}
+.cssSearch{
+  background-size: cover;
+background-image:url('../img/banner/99.png');
+background-repeat: no-repeat;
+ background-position: right;
+  
+  background-size: 850px 250px; 
+/*background-position: right;*/
+/*   opacity: 0.4;
+    filter: alpha(opacity=40); */
+
+ 
+
+  
+    
+}
+#btnBuscar{
+
+  cursor: hand;
+  cursor: pointer;
+}
+.cssSearch2{
+ 
+background-image:url('../img/banner/4444.png');
+background-repeat: no-repeat;
+ background-position: right;
+ height: 100%;
+ background-size: 430px 262px;
+/*background-position: right;*/
+/*   opacity: 0.4;
+    filter: alpha(opacity=40); */
+ 
+}
+body{
+
+  /*background: #f5f3e5;*/
+  /*
+ background-image: url('../images/logo/7742.jpg');  
+ background-size: 100% 115%; */
+
+}
+
+.gridHtmlRow:hover td {
+border: 1px solid #ccc;
+background:  url("../scripts/jquery-ui-1.11.4.custom.green/images/ui-bg_glass_75_dadada_1x400.png") 50% 50% repeat-x;
+background-color:rgb(245,245,245);;
+font-weight: normal;
+color: #026890;
+cursor: hand;
+  cursor: pointer;
+}
+
+.ui-dialog { z-index: 10000 !important ;}
+
+ #container {
+    display: table;
+     width: :100%;
+    }
+
+  #row  {
+    display: table-row;
+    }
+.paginador{
+
+ cursor: pointer; cursor: hand; 
+}
+ .tag {
+
+  color:whitesmoke;
+    font-weight: bold;
+  height: 40px;
+  width: 80%;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+   
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.cursor{
+
+  cursor: hand;
+  cursor: pointer;
+}
+
+
+
+.tituloBanner{
+
+margin-left: 40px;
+color: #000;
+font-size: 28px;
+
+}
+.subTituloBanner{
+
+
+margin-top: 10px;
+margin-left: 40px;
+color: #82B93A;
+font-style:italic;
+letter-spacing: 1px;
+font-weight: bold;
+
+
+
+}
+.dllEstilo{
+
+ width: 250px;
+
+}
+
+.trHidden{
+
+  
+}
+.trNoHidden{
+
+  
+}
+
+.bgPlus
+{
+  background-image: url(../img/b_plus.png);
+}
+
+.bgMinus 
+{
+  background-image: url(../img/b_minus.png);
+}
+
+
+.cssBarraSubMenu{
+ position: fixed; 
+ float:left!important; 
+ width:100%; 
+ background: #000;
+ /*background-image:url("../img/banner/GrassBar.jpg"); */ 
+ top:48px;
+ left:0px;
+ 
+ color: #fff;
+ height: 25px;
+}
+
+.cssBarraSubMenu span {
+ color: #fff;
+}
+ 
+ 
+ 
+ .msgError{
+  font-size: 14px;
+  color:red;
+  font-weight: bold;
+ }
+
+ 
+ .msgSuccess{
+  font-size: 14px;
+  color:blue;
+  font-weight: bold;
+ } 
+
+.borderReporte{
+ border:1px solid #000!important;
+  border-collapse: collapse;
+}
+
+.divRadio{
+  height: 30px;
+}
+
+ 
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .cssSearch{
+      background-image:url('../img/banner/11.png'); 
+     background-repeat: no-repeat;
+      background-position: right;
+      height: 100%;
+  /* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+ 
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+     }
+      .secFiltro3{
+    width: 100%;
+    
+  }
+}
+@media  screen and (min-width: 450px) and (max-width: 800px) { 
+
+.cssSearch{
+  background-image:url('../img/banner/11.png'); 
+  background-repeat: no-repeat;
+   background-position: right;
+   height: 100%;
+   /* Para dejar la imagen de fondo centrada, vertical y
+
+horizontalmente */
+
+background-position: center center;
+
+ 
+
+/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+background-attachment: fixed;
+
+/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+background-size: cover;
+
+ 
+  }
+  .secFiltro3{
+    width: 100%;
+    
+  }
+
+}
