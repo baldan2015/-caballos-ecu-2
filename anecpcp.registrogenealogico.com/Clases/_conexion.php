@@ -17,12 +17,7 @@ $this->pwd="rootroot";
 $this->basedatos="ecu_registro_sge";
 	
 $this->host="localhost";
-/*
-       $this->host = "198.71.241.2:3306";
-        $this->user = "anecpcp";
-        $this->pwd = "rootroot";
-        $this->basedatos = "registro_ecu_test";*/
-	
+ 
 		
 	}
 	function Conectar()
